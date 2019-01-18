@@ -7,3 +7,10 @@ forLoop = (array) => {
 };
 
 // TODO 2: Count down while loop
+whileLoop = (num) => {
+	while(num) {
+		num--;
+		console.log(num)
+	}
+	return 'done'
+};
