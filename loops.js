@@ -14,3 +14,13 @@ whileLoop = (num) => {
 	}
 	return 'done'
 };
+
+// TODO 3 : do while loop array
+doWhileLoop = (arr) => {
+	let i = 0;
+	incrementVariable = () => i+= 1;
+	do {
+		arr.pop();
+	} while (arr.length > 0 && incrementVariable());
+	return arr;
+};
