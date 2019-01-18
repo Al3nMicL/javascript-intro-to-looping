@@ -12,7 +12,7 @@ whileLoop = (num) => {
 		num--;
 		console.log(num)
 	}
-	return 'done'
+	return 'done';
 };
 
 // TODO 3 : do while loop array
